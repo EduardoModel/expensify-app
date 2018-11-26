@@ -1,0 +1,43 @@
+{
+  "name": "expensify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "live-server public/",
+    "build": "webpack",
+    "dev-server": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "live-server": "^1.2.0",
+    "moment": "^2.22.2",
+    "node-sass": "^4.9.4",
+    "normalize.css": "^8.0.0",
+    "react": "^16.5.2",
+    "react-datepicker": "^2.0.0",
+    "react-dom": "^16.5.2",
+    "react-modal": "^3.6.1",
+    "react-redux": "^5.1.1",
+    "react-router-dom": "^4.2.2",
+    "redux": "^4.0.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "uuid": "^3.3.2",
+    "webpack": "^4.20.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.2"
+  }
+}
